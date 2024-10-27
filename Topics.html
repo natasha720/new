@@ -1,0 +1,173 @@
+﻿<!DOSTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8;"/>
+<meta name ="keywords" content = "education"/>
+<meta name ="description" content = "Этот сайт образовательный"/>
+<link href = "images/rocket.png" rel = "icon" type = "image/png"/>
+<link rel="apple-touch-icon" href="apple-touch-favicon.png"/>
+<link type="text/css" rel="stylesheet" href="CSS/style.css">
+<title>IL - Главная</title>
+</head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+ 
+<script type="text/javascript">
+ 
+$(function() {
+ 
+$(window).scroll(function() {
+ 
+if($(this).scrollTop() != 0) {
+ 
+$('#toTop').fadeIn();
+ 
+} else {
+ 
+$('#toTop').fadeOut();
+ 
+}
+ 
+});
+ 
+$('#toTop').click(function() {
+ 
+$('body,html').animate({scrollTop:0},800);
+ 
+});
+ 
+});
+ 
+</script>
+<body>
+<header>
+<div class="Logo">
+<div class="Logo1">
+<div id="logotype">
+</div>
+	<figure id = "logo">
+		<span class="head" id = "Sign">Amazing around us</span> 
+	</figure>
+	</div>
+</div>	
+<div id="navigation">
+	<a href = "About.html">
+		<div class="table right">
+			<center>
+				<figure class="table-text">
+					<span class = "tb1">Главная</span>
+				</figure>
+			</center>
+		</div> 
+	</a>
+	<a href = "Topics.html">
+		<div class="table right">
+			<center>
+				<figure class="table-text">
+					<span class="tb1">Статьи</span>
+				</figure>
+			</center>
+		</div> 
+	</a>
+	<a href = "Communication.html">
+		<div class="table right margin-left">
+			<center>
+				<figure class="table-text">
+				<span class = "tb1" class="communication">Контакты</span>
+				</figure>
+			</center>
+		</div> 
+	</a>
+</div>
+</header>
+
+<div class="content">
+<br>
+<br>
+<center>
+<span class="sign">Темы для изучения</span>
+</center>
+<br>
+<center>
+<div id="List">
+<center>
+<div class="list">
+<div align="left">
+<a href = "topics/About_space.html">
+<img class="imgList" src="images/topic-1.png">
+</a>
+<figure id="listLine">
+<a class="a" href = "topics/About_space.html"><span class="listline">Всё о космосе</span></a>
+</figure>
+</div>
+</div>
+</center>
+<center>
+<div class="list">
+<div align="left">
+<a href = "topics/Inventions.html">
+<img class="imgList" src="images/topic-2.png">
+</a>
+<figure id="listLine">
+<a class="a" href = "topics/Inventions.html"><span class="listline">Изобретения для покорения космичекого пространства</span></a>
+</figure>
+</div>
+</div>
+</center>
+<center>
+<div class="list">
+<div align="left">
+<a href = "topics/History_of_space.html">
+<img class="imgList" src="images/topic-3.png">
+</a>
+<figure id="listLine">
+<a class="a" href = "topics/History_of_space.html"><span class="listline">Как нам покорился космос</span></a>
+</figure>
+</div>
+</div>
+</center>
+<center>
+<div class="list">
+<div align="left">
+<a href = "topics/About_planets.html">
+<img class="imgList" src="images/universe.png">
+</a>
+<figure id="listLine">
+<a class="a" href = "topics/About_planets.html"><span class="listline">Что такое планеты</span></a>
+</figure>
+</div>
+</div>
+</center>
+<center>
+<div class="list">
+<div align="left">
+<a href = "topics/Universe.html">
+<img class="imgList" src="images/Universe_1.png">
+</a>
+<figure id="listLine">
+<a class="a" href = "topics/Universe.html"><span class="listline">Как формировалась вселенная</span></a>
+</figure>
+</div>
+</div>
+</center>
+
+
+</div>
+</center>
+<br>
+<br>
+<DIV ID = "toTop" > Наверх </DIV>
+<br>
+</div>
+<div id = "page-wrap">
+<footer>
+<center>
+<br>
+<span class = "">Все права защищены &copy; 2024 SHTR</span>
+</center>
+<center>
+<span class="">Связь с нами: тел. +7-909-289-55-91</span>
+</center>
+</footer>
+</div>
+</body>
+</html>
